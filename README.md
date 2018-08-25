@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/shashikumarraja/naughty-string-validator.svg?branch=master)](https://travis-ci.org/shashikumarraja/naughty-string-validator)
 [![Coverage Status](https://coveralls.io/repos/github/shashikumarraja/naughty-string-validator/badge.svg?branch=master)](https://coveralls.io/github/shashikumarraja/naughty-string-validator?branch=master)
+[![npm version](https://badge.fury.io/js/naughty-string-validator.svg)](https://badge.fury.io/js/naughty-string-validator)
 
 A node.js library that returns `naughty strings` from an offline database of [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings).
 
