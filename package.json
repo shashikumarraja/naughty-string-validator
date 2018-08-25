@@ -2,7 +2,7 @@
   "name": "naughty-string-validator",
   "version": "0.1.1",
   "description": "Get naughty strings from an offline db of big list of naughty strings",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha test/*",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
