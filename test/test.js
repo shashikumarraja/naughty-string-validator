@@ -3,7 +3,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 const fs = require('fs');
-const { getRandomNaughtyString, getNaughtyStringList } = require('../src/naughty-string-validator');
+const { getRandomNaughtyString, getNaughtyStringList } = require('../src/index');
 
 describe("#naughty-string-collection", function () {
     it("should check blns.json exists", function () {
