@@ -24,19 +24,31 @@ var naughty = require('naughty-string-validator');
 * To get a random naughty string from the list
   ```javascript
   var randomNaughty = naughty.getRandomNaughtyString();
+
+  //randomNaughty
+  "<a href=\"\\xE2\\x80\\x88javascript…(1)\" id=\"fuzzelement1\">test</a>"
   ```
 
  * To get entire naughty string list 
     ```javascript
     var naughtyList = naughty.getNaughtyStringList();
+
+    //naughtyList
+    ["", "undefined", "undef", "null", "NULL", "(null)", "nil", …]
     ```
 * To get a random emoji from the emoji list
   ```javascript
   var randomEmoji = naughty.getRandomEmoji();
+
+  //randomEmoji
+   "😃"
   ```
 * To get a entire emoji list
   ```javascript
   var emojiList = naughty.getEmojiList();
+
+  //emojiList
+  ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "☺️", "😊", …]
   ```
 
 ## Tests
