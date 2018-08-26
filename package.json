@@ -1,6 +1,6 @@
 {
   "name": "naughty-string-validator",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Get naughty strings from an offline db of big list of naughty strings",
   "main": "src/index.js",
   "scripts": {
