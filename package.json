@@ -17,7 +17,7 @@
     "naughty-string"
   ],
   "author": "Shashi Kumar Raja <shashiraja92@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shashikumarraja/naughty-string-validator/issues"
   },
