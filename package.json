@@ -4,10 +4,11 @@
   "description": "Get naughty strings from an offline db of big list of naughty strings",
   "main": "src/index.js",
   "scripts": {
-    "pretest": "npm run lint",
+    "pretest": "npm run lint-fix",
     "test": "mocha test/*",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
-    "lint": "eslint src test"
+    "lint": "eslint src test",
+    "lint-fix": "eslint --fix src test"
   },
   "repository": {
     "type": "git",
