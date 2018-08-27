@@ -33,4 +33,36 @@ describe('#naughty-string-validator', () => {
     const emojiList = getEmojiList();
     expect(emojiList).to.be.an('array').that.is.not.empty;
   });
+  it('should return emoji list by category:People', () => {
+    const emojiList = getEmojiList('Flags');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Nature', () => {
+    const emojiList = getEmojiList('Nature');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Foods', () => {
+    const emojiList = getEmojiList('Foods');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Activity', () => {
+    const emojiList = getEmojiList('Activity');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Places', () => {
+    const emojiList = getEmojiList('Places');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Objects', () => {
+    const emojiList = getEmojiList('Objects');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Symbols', () => {
+    const emojiList = getEmojiList('Symbols');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
+  it('should return emoji list by category:Flags', () => {
+    const emojiList = getEmojiList('Flags');
+    expect(emojiList).to.be.an('array').that.is.not.empty;
+  });
 });

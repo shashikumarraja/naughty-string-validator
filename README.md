@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/shashikumarraja/naughty-string-validator.svg?branch=master)](https://travis-ci.org/shashikumarraja/naughty-string-validator)
 [![Coverage Status](https://coveralls.io/repos/github/shashikumarraja/naughty-string-validator/badge.svg?branch=master)](https://coveralls.io/github/shashikumarraja/naughty-string-validator?branch=master)
 [![npm version](https://badge.fury.io/js/naughty-string-validator.svg)](https://badge.fury.io/js/naughty-string-validator)
+![npm](https://img.shields.io/npm/dt/naughty-string-validator.svg)
 [![dependencies Status](https://david-dm.org/shashikumarraja/naughty-string-validator/status.svg)](https://david-dm.org/shashikumarraja/naughty-string-validator)
 [![devDependencies Status](https://david-dm.org/shashikumarraja/naughty-string-validator/dev-status.svg)](https://david-dm.org/shashikumarraja/naughty-string-validator?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/shashikumarraja/naughty-string-validator/badge.svg?targetFile=package.json)](https://snyk.io/test/github/shashikumarraja/naughty-string-validator?targetFile=package.json)
@@ -51,6 +52,14 @@ var naughty = require('naughty-string-validator');
 
   //emojiList
   ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "☺️", "😊", …]
+  ```
+  * To get emoji list of a particular category:
+  `'People', 'Nature', 'Foods', 'Activity', 'Places', 'Objects', 'Symbols', 'Flags'`
+  ```javascript
+  var emojiList = naughty.getEmojiList('Flags');
+
+  //emojiList
+  ['🏳️', '🏴', '🏁', '🚩', '🏳️‍🌈', '🇦🇫', '🇦🇽','🇦🇱', …]
   ```
 
 ## Tests
