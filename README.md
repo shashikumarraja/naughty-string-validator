@@ -5,13 +5,15 @@
 [![npm version](https://badge.fury.io/js/naughty-string-validator.svg)](https://badge.fury.io/js/naughty-string-validator)
 [![dependencies Status](https://david-dm.org/shashikumarraja/naughty-string-validator/status.svg)](https://david-dm.org/shashikumarraja/naughty-string-validator)
 [![devDependencies Status](https://david-dm.org/shashikumarraja/naughty-string-validator/dev-status.svg)](https://david-dm.org/shashikumarraja/naughty-string-validator?type=dev)
+[![Known Vulnerabilities](https://snyk.io/test/github/shashikumarraja/naughty-string-validator/badge.svg?targetFile=package.json)](https://snyk.io/test/github/shashikumarraja/naughty-string-validator?targetFile=package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+===
 
 A node.js library that returns `naughty strings` from an offline database of [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) and emojis. The db will be continuously growing with each release.
 
 The Big List of Naughty Strings is an evolving list of strings which have a high probability of causing issues when used as user-input data.
 
-This library can be to inluded in the test automation framework for API, UI, or DB testing to validate them against naughty strings.
+This library can be inluded in the test automation framework for API, UI, or DB testing to validate them against naughty strings.
 
 ## Installation
 

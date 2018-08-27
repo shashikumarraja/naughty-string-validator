@@ -1,7 +1,7 @@
 {
   "name": "naughty-string-validator",
   "version": "1.0.1",
-  "description": "Get naughty strings from an offline db of big list of naughty strings",
+  "description": "Get naughty strings from an offline db of big list of naughty strings and emojis",
   "main": "src/index.js",
   "scripts": {
     "pretest": "npm run lint-fix",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/shashikumarraja/naughty-string-validator.git"
   },
   "keywords": [
-    "naughty-string"
+    "naughty-string", "emoji", "strings"
   ],
   "author": "Shashi Kumar Raja <shashiraja92@gmail.com>",
   "license": "MIT",
