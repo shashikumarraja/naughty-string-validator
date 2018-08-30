@@ -53,18 +53,21 @@ var naughty = require('naughty-string-validator');
   //emojiList
   ["😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "☺️", "😊", …]
   ```
-  * To get emoji list of a particular category:
+* To get emoji list of a particular category:
+
   `'People', 'Nature', 'Foods', 'Activity', 'Places', 'Objects', 'Symbols', 'Flags'`
   ```javascript
   var emojiList = naughty.getEmojiList('Flags');
 
   //emojiList
   ['🏳️', '🏴', '🏁', '🚩', '🏳️‍🌈', '🇦🇫', '🇦🇽','🇦🇱', …]
-  ```
+
+  //if the emoji category doesn't exist, you will get the entire emoji list
+```
 
 ## Tests
 ```shell
-//To run test with linting but without coverage
+//To run test with linting
 npm test
 
 //Test with coverage
