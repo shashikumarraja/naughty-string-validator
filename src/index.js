@@ -16,6 +16,10 @@ exports.getRandomNaughtyString = () => {
   return naughtyStringList[randomIndex];
 };
 
+/**
+ * @description Returns the entire naughty string List
+ * @returns {Array}
+ */
 exports.getNaughtyStringList = () => naughtyStringList;
 
 /**
