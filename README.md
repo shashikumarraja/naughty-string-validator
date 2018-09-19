@@ -8,6 +8,7 @@
 [![devDependencies Status](https://david-dm.org/shashikumarraja/naughty-string-validator/dev-status.svg)](https://david-dm.org/shashikumarraja/naughty-string-validator?type=dev)
 [![Known Vulnerabilities](https://snyk.io/test/github/shashikumarraja/naughty-string-validator/badge.svg?targetFile=package.json)](https://snyk.io/test/github/shashikumarraja/naughty-string-validator?targetFile=package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Inline docs](https://inch-ci.org/github/shashikumarraja/naughty-string-validator.svg?branch=master)](http://inch-ci.org/github/shashikumarraja/naughty-string-validator)
 ===
 
 A node.js library that returns `naughty strings` from an offline database of [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) and emojis. The db will be continuously growing with each release.
@@ -76,6 +77,7 @@ npm run cover
 
 ## ☑ Roadmap
 
+- [ ] Add Support to return naughtified json data from json schema
 - [x] Add Support for emoji
 - [ ] Add Support to get a desired emoji by name
 - [ ] Add Support to get NaughtyStringList of a given length
